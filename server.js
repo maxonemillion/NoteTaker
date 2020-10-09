@@ -41,7 +41,7 @@ app.post('/api/notes', function (req, res) {
 app.delete('/api/notes/:id', function (req, res) {
     const exnote = req.params.id;
     console.log('delete working', exnote);
-    db = db.filter((note) => note.id !== req.params.id);
+    db.splice(req.params.id, 1);
     fs.writeFileSync(path.join(__dirname, 'db', 'db.json'), JSON.stringify(db));
     res.json({ok:true});
 });
