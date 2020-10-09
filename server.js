@@ -8,7 +8,7 @@ var PORT = process.env.PORT || 6969;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('../Develop/public'));
+app.use(express.static('./public'));
 
 // GETS
 
