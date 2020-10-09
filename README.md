@@ -7,6 +7,4 @@ The purpose of this assignment was to create an application that can be used to 
 I learned how to create and use my own servers, as well as how to use Heroku.
 
 ### RUN
-![project screenshot](Develop/images/screenshot.png)
-
-Heroku: 
+Heroku: https://frozen-sands-90218.herokuapp.com/
