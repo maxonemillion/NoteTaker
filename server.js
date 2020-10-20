@@ -30,7 +30,6 @@ app.get("/api/notes", function(req, res) {
 app.post('/api/notes', function (req, res) {
     const note = req.body;
     note.id = uuidv4();
-    console.log('post working', note);
     db.push(note);
     fs.writeFileSync(path.join(__dirname, 'db', 'db.json'), JSON.stringify(db));
     res.json(note);
@@ -40,7 +39,6 @@ app.post('/api/notes', function (req, res) {
 
 app.delete('/api/notes/:id', function (req, res) {
     const exnote = req.params.id;
-    console.log('delete working', exnote);
     db.splice(req.params.id, 1);
     fs.writeFileSync(path.join(__dirname, 'db', 'db.json'), JSON.stringify(db));
     res.json({ok:true});
