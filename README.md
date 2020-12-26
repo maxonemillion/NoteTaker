@@ -13,7 +13,7 @@ Use this [note taker app](https://frozen-sands-90218.herokuapp.com/) when you ne
 * NodeJS
 * Express
 
-## Information
+## INFORMATION
 [Here](https://github.com/maxonemillion/NoteTaker "Link to github repository") is the github repository for this project.
 
 [Here](https://frozen-sands-90218.herokuapp.com/) is the Heroku link for this project.
