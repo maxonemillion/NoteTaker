@@ -18,7 +18,7 @@ Use this [note taker app](https://frozen-sands-90218.herokuapp.com/) when you ne
 <img width="1668" alt="Screen Shot 2020-12-26 at 11 26 16 AM" src="https://user-images.githubusercontent.com/67847591/103179467-499c8280-4841-11eb-9a2e-2ebd3cd31e34.png">
 
 ### INFORMATION:
-[Here](https://frozen-sands-90218.herokuapp.com/) is the link to the deployed app.  [Here](https://github.com/maxonemillion/NoteTaker "Link to github repository") is the Github repository for this project.
+[Here](https://frozen-sands-90218.herokuapp.com/) is the link to the deployed app. 
 
 ### CONTACT:
 * max.daniel@utah.edu
